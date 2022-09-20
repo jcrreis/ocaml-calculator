@@ -7,5 +7,6 @@ let int = '-'? digit+
 
 rule read =
     parse 
+    | "+" { PLUIS }
     | int { INT (int_of_string (Lexing.lexeme lexbuf)) }
     | eof { EOF }
