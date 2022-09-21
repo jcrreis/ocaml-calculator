@@ -1,0 +1,14 @@
+(** @canonical Calc.Ast *)
+module Ast = Calc__Ast
+
+
+(** @canonical Calc.Lexer *)
+module Lexer = Calc__Lexer
+
+
+(** @canonical Calc.Main *)
+module Main = Calc__Main
+
+
+(** @canonical Calc.Parser *)
+module Parser = Calc__Parser
