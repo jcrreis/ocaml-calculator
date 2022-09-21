@@ -8,6 +8,7 @@ type token =
   | LPAREN
   | INT of (int)
   | EOF
+  | DIV
 
 (* This exception is raised by the monolithic API functions. *)
 

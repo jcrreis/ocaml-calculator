@@ -9,6 +9,7 @@ let int = '-'? digit+
 rule read =
     parse 
     | white { read lexbuf }
+    | "/" { DIV }
     | "+" { PLUS }
     | "*" { TIMES }
     | "(" { LPAREN }

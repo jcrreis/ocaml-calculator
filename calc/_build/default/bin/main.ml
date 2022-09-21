@@ -10,7 +10,7 @@ let () =
 
 
 let () = 
-   let y = Main.parse "1 + 1 *4" in
+   let y = Main.parse Sys.argv.(1) in
     let x = Main.eval y in
     print_string (Main.string_of_val x);
     Format.printf "@."

@@ -1,4 +1,4 @@
-type token = TIMES | RPAREN | PLUS | LPAREN | INT of int | EOF
+type token = TIMES | RPAREN | PLUS | LPAREN | INT of int | EOF | DIV
 val menhir_begin_marker : int
 val xv_prog : Ast.expr
 val xv_expr : Ast.expr
