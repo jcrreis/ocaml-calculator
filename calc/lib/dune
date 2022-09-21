@@ -1,0 +1,9 @@
+(ocamllex
+ (modules lexer))
+
+(menhir
+ (modules parser)
+ (flags (-v)))
+
+(library
+ (name calc))
